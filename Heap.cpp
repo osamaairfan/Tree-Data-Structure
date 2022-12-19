@@ -2,8 +2,8 @@
 using namespace std;
 
 class MaxHeap {
-                                    //Formulas:
-	int* arr;						// parent = i/2	
+                                                        //Formulas:
+	int* arr;					// parent = i/2	
 	int capacity;					// left child = 2i
 	int count = 1;					// right child = 2i+1
 
